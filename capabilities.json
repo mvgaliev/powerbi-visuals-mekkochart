@@ -3,27 +3,32 @@
         {
             "name": "Category",
             "kind": "Grouping",
-            "displayName": "Category"
+            "displayName": "Category",
+            "displayNameKey": "Visual_Category"
         },
         {
             "name": "Series",
             "kind": "Grouping",
-            "displayName": "Series"
+            "displayName": "Series",
+            "displayNameKey": "Visual_Series"
         },
         {
             "name": "Y",
             "kind": "Measure",
-            "displayName": "YAxis"
+            "displayName": "YAxis",
+            "displayNameKey": "Visual_YAxis"
         },
         {
             "name": "Width",
             "kind": "Measure",
-            "displayName": "Axiswidth"
+            "displayName": "Axiswidth",
+            "displayNameKey": "Visual_AxisWidth"
         },
         {
-            "name":"CategoryCustomSorting",
-            "kind":"Grouping",
-            "displayName":"Category sorting"
+            "name": "CategoryCustomSorting",
+            "kind": "Grouping",
+            "displayName": "Category sorting",
+            "displayNameKey": "Visual_CategorySorting"
         }
     ],
     "objects": {
@@ -33,6 +38,7 @@
             "properties": {
                 "show": {
                     "displayName": "Show",
+                    "displayNameKey": "Visual_Show",
                     "type": {
                         "bool": true
                     }
